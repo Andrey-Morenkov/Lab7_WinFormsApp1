@@ -1,0 +1,132 @@
+﻿Build started 22.03.2016 1:02:02.
+     1>Project "C:\Users\Hryasch\Documents\GitHub\Lab7_WinFormsApp1\WinFormsLab1\WinFormsLab1\WinFormsLab1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib Form1.cpp stdafx.cpp
+         Form1.cpp
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(13): error C2953: 'TLink' : class template has already been defined
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(3) : see declaration of 'TLink'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(20): error C2244: 'TLink<T>::{ctor}' : unable to match function definition to an existing declaration
+                 definition
+                 'TLink::TLink(const T &)'
+                 existing declarations
+                 'TLink<T>::TLink(const TLink<T> &)'
+                 'TLink<T>::TLink(const T &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(23): error C2955: 'TLink' : use of class template requires template argument list
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(3) : see declaration of 'TLink'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(27): error C2244: 'TLink<T>::{ctor}' : unable to match function definition to an existing declaration
+                 definition
+                 'TLink::TLink(const TLink &)'
+                 existing declarations
+                 'TLink<T>::TLink(const TLink<T> &)'
+                 'TLink<T>::TLink(const T &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(32): error C2244: 'TLink<T>::~TLink' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TLink.h(10) : see declaration of 'TLink<T>::~TLink'
+                 definition
+                 'TLink::~TLink(void)'
+                 existing declarations
+                 'TLink<T>::~TLink(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(33): error C2953: 'THeadList' : class template has already been defined
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(5) : see declaration of 'THeadList'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(44): error C2244: 'THeadList<T>::{ctor}' : unable to match function definition to an existing declaration
+                 definition
+                 'THeadList::THeadList(void)'
+                 existing declarations
+                 'THeadList<T>::THeadList(const THeadList<T> &)'
+                 'THeadList<T>::THeadList(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(62): error C2244: 'THeadList<T>::~THeadList' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(19) : see declaration of 'THeadList<T>::~THeadList'
+                 definition
+                 'THeadList::~THeadList(void)'
+                 existing declarations
+                 'THeadList<T>::~THeadList(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(81): error C2244: 'THeadList<T>::InsFirst' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(24) : see declaration of 'THeadList<T>::InsFirst'
+                 definition
+                 'void THeadList::InsFirst(const T &)'
+                 existing declarations
+                 'void THeadList<T>::InsFirst(const T &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(104): error C2244: 'THeadList<T>::DelFirst' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(27) : see declaration of 'THeadList<T>::DelFirst'
+                 definition
+                 'void THeadList::DelFirst(void)'
+                 existing declarations
+                 'void THeadList<T>::DelFirst(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(122): error C2244: 'THeadList<T>::InsCurrent' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(25) : see declaration of 'THeadList<T>::InsCurrent'
+                 definition
+                 'void THeadList::InsCurrent(const T &)'
+                 existing declarations
+                 'void THeadList<T>::InsCurrent(const T &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(136): error C2244: 'THeadList<T>::DelCurrent' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(28) : see declaration of 'THeadList<T>::DelCurrent'
+                 definition
+                 'void THeadList::DelCurrent(void)'
+                 existing declarations
+                 'void THeadList<T>::DelCurrent(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(153): error C2244: 'THeadList<T>::InsLast' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(26) : see declaration of 'THeadList<T>::InsLast'
+                 definition
+                 'void THeadList::InsLast(const T &)'
+                 existing declarations
+                 'void THeadList<T>::InsLast(const T &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(161): error C2244: 'THeadList<T>::Reset' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(29) : see declaration of 'THeadList<T>::Reset'
+                 definition
+                 'void THeadList::Reset(void)'
+                 existing declarations
+                 'void THeadList<T>::Reset(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(169): error C2244: 'THeadList<T>::GoNext' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(30) : see declaration of 'THeadList<T>::GoNext'
+                 definition
+                 'void THeadList::GoNext(void)'
+                 existing declarations
+                 'void THeadList<T>::GoNext(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(178): error C2244: 'THeadList<T>::IsEnd' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(31) : see declaration of 'THeadList<T>::IsEnd'
+                 definition
+                 'bool THeadList::IsEnd(void)'
+                 existing declarations
+                 'bool THeadList<T>::IsEnd(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(180): error C2955: 'THeadList' : use of class template requires template argument list
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(5) : see declaration of 'THeadList'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(192): error C2244: 'THeadList<T>::{ctor}' : unable to match function definition to an existing declaration
+                 definition
+                 'THeadList::THeadList(const THeadList &)'
+                 existing declarations
+                 'THeadList<T>::THeadList(const THeadList<T> &)'
+                 'THeadList<T>::THeadList(void)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(195): error C2955: 'THeadList' : use of class template requires template argument list
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(5) : see declaration of 'THeadList'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(204): error C2244: 'THeadList<T>::operator =' : unable to match function definition to an existing declaration
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\THeadList.h(21) : see declaration of 'THeadList<T>::operator ='
+                 definition
+                 'THeadList &THeadList::operator =(const THeadList &)'
+                 existing declarations
+                 'THeadList<T> &THeadList<T>::operator =(const THeadList<T> &)'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(9): error C2011: 'Monom' : 'struct' type redefinition
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(9) : see declaration of 'Monom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22): error C2011: 'TPolynom' : 'class' type redefinition
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22) : see declaration of 'TPolynom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(33): error C2027: use of undefined type 'TPolynom'
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22) : see declaration of 'TPolynom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(33): error C2226: syntax error : unexpected type 'Monom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(34): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(34): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(39): error C2027: use of undefined type 'TPolynom'
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22) : see declaration of 'TPolynom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(41): error C3861: 'Reset': identifier not found
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(42): error C2027: use of undefined type 'TPolynom'
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22) : see declaration of 'TPolynom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(42): error C2228: left of '.Reset' must have class/struct/union
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(43): error C2027: use of undefined type 'TPolynom'
+                 c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(22) : see declaration of 'TPolynom'
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(43): error C2228: left of '.IsEnd' must have class/struct/union
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(43): error C3861: 'IsEnd': identifier not found
+     1>c:\users\hryasch\documents\github\lab7_winformsapp1\winformslab1\winformslab1\TPolynom.h(43): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         stdafx.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Hryasch\Documents\GitHub\Lab7_WinFormsApp1\WinFormsLab1\WinFormsLab1\WinFormsLab1.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59
