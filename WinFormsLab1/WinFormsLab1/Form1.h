@@ -215,6 +215,15 @@ private: System::Void textBox2_TextChanged(System::Object^  sender, System::Even
 
 }
 
+		 String^ StrToStr(string s)
+		 {
+			 String^ str;
+			 for (int i = 0; i < s.size(); i++)
+			 {
+				 str += s[i];
+			 }
+			 return str;
+		 }
 private: System::Void Add_button_Click(System::Object^  sender, System::EventArgs^  e) {
 			 int type = System::Convert::ToDouble(coeff_box->Text);
 			 int x = System::Convert::ToDouble(x_box->Text);
@@ -223,8 +232,8 @@ private: System::Void Add_button_Click(System::Object^  sender, System::EventArg
 			 inspoly->InsPoly(type, x, y, z);
 			 *poly += *inspoly;
 
-			 this->polynom_box->Text = poly->OutPoly();
-			 this->polynom_box->Refresh();
+			 this->polynom_box->Text = StrToStr(poly->OutPoly());
+			 //this->polynom_box->Refresh();
 }
 
 };

@@ -1,3 +1,4 @@
+#pragma once
 #include "THeadList.h"
 #include <string>
 #include <conio.h>
@@ -28,7 +29,7 @@ public:
 	TPolynom & operator +=(TPolynom & p);
 
 	void InsPoly(int type, int _x, int _y, int _z);
-	void OutPoly();
+	string OutPoly();
 };
 TPolynom::TPolynom(const Monom& m)
 {
@@ -103,7 +104,7 @@ TPolynom operator + (TPolynom & p1,TPolynom & p2)
 	}
 }*/
 
-void TPolynom::OutPoly()
+string TPolynom::OutPoly()
 {
 	int len1 = len;
 	string coeff,x,y,z;
@@ -129,4 +130,5 @@ void TPolynom::OutPoly()
 		}
 		GoNext();
 	}
+	return outp;
 }

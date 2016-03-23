@@ -1,4 +1,6 @@
+#pragma once
 #include "TLink.h"
+#include <stdlib.h>
 
 template <class T>
 class THeadList
